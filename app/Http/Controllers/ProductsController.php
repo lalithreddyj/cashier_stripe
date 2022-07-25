@@ -62,7 +62,7 @@ class ProductsController extends Controller
     }
     public function afterPayment()
     {
-      session::flash('success','Payment successful for the Item, It will be delivered at the earliest!');
+      session::flash('success','Payment successful for the Item, It will be delivered at the 123!');
         return redirect('/products');
     }
 }
